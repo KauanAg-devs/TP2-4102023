@@ -1,0 +1,13 @@
+{
+  "name": "tp2-4102023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "servidor.js",
+  "scripts": {
+    "prod": "node --env-file ./config/.env.prod servidor.js",
+    "dev": "node --env-file ./config/.env.dev servidor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
